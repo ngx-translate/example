@@ -1,3 +1,8 @@
+
+- Tested adding the de.json (German) file for a language choice to the example app
+
+---------------------------------------
+
 # ngx-translate example
 
 ## Development server
