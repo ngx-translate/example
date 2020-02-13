@@ -40,7 +40,7 @@ describe('AppComponent', () => {
   }));
 
   it('should load translations', async(() => {
-    spyOn(translate, 'getBrowserLang').and.returnValue('en');
+    spyOn(translate, 'getBrowserLang').and.returnValue('');
     const fixture = TestBed.createComponent(AppComponent);
     const compiled = fixture.debugElement.nativeElement;
 
